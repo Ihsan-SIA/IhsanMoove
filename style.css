@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+.bigImage {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.3)), url('https://tinyurl.com/bigimagemoove');
+    height: 100vh; */
+    height: 120vh;
+    display: grid;
+    grid-template-rows: 6% 20% 50% 30%;
+    .first{
+        background-color: #2C2926;
+    }
+}
