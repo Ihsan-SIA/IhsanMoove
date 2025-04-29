@@ -34,11 +34,14 @@ a{
         }
     }
     .second{
+        display: flex;
+        justify-content: space-between;
         background-color: #F8F4F2;
         div{
             display: flex;
             align-items: center;
             height: 100%;
+            border: 2px solid blue;
             img{
                 height: 10px;
             }
@@ -47,6 +50,15 @@ a{
                 padding-left: 25px;
                 fill: #FF4300;
             }
+        }
+        .navs{
+            display: flex;
+            justify-self: flex-end;
+            gap: 50px;
+        }
+        .button{
+            display: flex;
+            justify-self: flex-end;
         }
     }
 }
