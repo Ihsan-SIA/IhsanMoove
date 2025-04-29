@@ -8,6 +8,19 @@ body{
     display: grid;
     grid-template-rows: 6% 20% 50% 30%;
     .first{
+        padding-left: 15px;
         background-color: #2C2926;
+        box{
+            width: 220px;
+            button{
+                height: 100%;
+                width: 105px;
+                margin: 0 10px;
+                border: 2px solid red;
+            }
+        }
+        
     }
+}
+.logo{
 }
