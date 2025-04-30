@@ -20,9 +20,9 @@ a {
     /* background: linear-gradient(rgba(0, 0, 0, 0.3)), url('https://tinyurl.com/bigimagemoove');
     background-size: cover;
     background-position: center;     */
-    height: 120vh;
+    height: 130vh;
     display: grid;
-    grid-template-rows: 8vh 12vh 100vh;
+    grid-template-rows: 8vh 12vh 110vh;
 
     .first {
         padding-left: 15px;
@@ -122,6 +122,8 @@ a {
         background: linear-gradient(rgba(0, 0, 0, 0.3)), url('https://tinyurl.com/bigimagemoove');
         background-position: center;
         background-size: cover;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
         padding: 0 10%;
         color: white;
         .up{
@@ -147,10 +149,17 @@ a {
                 font-weight: 600;
                 font-size: 1em;
             }
+        }
+        .down{
+            height: 100%;
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             img{
-                height: 25px;
+                height: 20px;
+                width: auto;
             }
         }
-        
     }
 }
