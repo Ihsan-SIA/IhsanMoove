@@ -156,10 +156,30 @@ a {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            img{
-                height: 20px;
-                width: auto;
+            .carSide{
+                display: flex;
+                align-items: center;
+                gap: .5%;
+                img{
+                    height: 20px;
+                }
+                strong{
+                    font-size: 1.15em;
+                    color: #D5D4D4;
+                }
             }
+            .partners{
+                font-size: .9em;
+                font-weight: 600;
+                p{
+                    padding: 1.5% 0;
+                }
+                box{
+                    display: flex;
+                    gap: 5%;
+                }
+            }
+            
         }
     }
 }
