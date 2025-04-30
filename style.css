@@ -122,5 +122,35 @@ a {
         background: linear-gradient(rgba(0, 0, 0, 0.3)), url('https://tinyurl.com/bigimagemoove');
         background-position: center;
         background-size: cover;
+        padding: 0 10%;
+        color: white;
+        .up{
+            h1{
+                font-size: 4.5em;
+                margin: 0;
+                padding-top: 5%;
+            }
+            p{
+                width: 470px;
+                font-size: 1.2em;
+                font-weight: 600;
+                line-height: 150%;
+            }
+            button{
+                width: 290px;
+                height: 55px;
+                margin: 3% 0;
+                background-color: #FF4300;
+                border-radius: 35px;
+                border: none;
+                color: white;
+                font-weight: 600;
+                font-size: 1em;
+            }
+            img{
+                height: 25px;
+            }
+        }
+        
     }
 }
