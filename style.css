@@ -190,16 +190,7 @@ a {
         border:  2px solid blue;
         display: grid;
         grid-template-columns: 40% 60%;
-        nav{
-            border: 2px solid red;
-            display: flex;
-            flex-direction: column;
-            padding: 0 20%;
-            div{
-                font-size: 2.5em;
-                font-weight: 1001;
-            }
-        }
+        
     }
     .down{
         border: 2px solid red;
@@ -210,9 +201,13 @@ a {
         }
     }
     svg{
-        height: 80%;
+        height: 80px;
         width: auto;
         fill: #F8F4F2;
         color: #F8F4F2;
+    }
+    img{
+        height: 50px;
+        width: auto;
     }
 }
